@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		29737A9A2843853100C9618B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29737A992843853100C9618B /* main.swift */; };
-		29737AA128439AD900C9618B /* my-script.txt in Sources */ = {isa = PBXBuildFile; fileRef = 29737AA028439AD900C9618B /* my-script.txt */; };
+		29737AA42843D1C000C9618B /* my-script.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29737AA028439AD900C9618B /* my-script.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,6 +20,16 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		29737AA32843D1B100C9618B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				29737AA42843D1C000C9618B /* my-script.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -83,6 +93,7 @@
 				29737A922843853100C9618B /* Sources */,
 				29737A932843853100C9618B /* Frameworks */,
 				29737A942843853100C9618B /* CopyFiles */,
+				29737AA32843D1B100C9618B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -131,7 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29737AA128439AD900C9618B /* my-script.txt in Sources */,
 				29737A9A2843853100C9618B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
