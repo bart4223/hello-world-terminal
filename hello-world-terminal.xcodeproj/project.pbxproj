@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		29737A9A2843853100C9618B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29737A992843853100C9618B /* main.swift */; };
+		29737AA128439AD900C9618B /* my-script.txt in Sources */ = {isa = PBXBuildFile; fileRef = 29737AA028439AD900C9618B /* my-script.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		29737A962843853100C9618B /* hello-world-terminal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hello-world-terminal"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29737A992843853100C9618B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		29737AA028439AD900C9618B /* my-script.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "my-script.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		29737A8D2843853100C9618B = {
 			isa = PBXGroup;
 			children = (
+				29737AA22843A4A400C9618B /* scripts */,
 				29737A982843853100C9618B /* hello-world-terminal */,
 				29737A972843853100C9618B /* Products */,
 			);
@@ -60,6 +63,14 @@
 				29737A992843853100C9618B /* main.swift */,
 			);
 			path = "hello-world-terminal";
+			sourceTree = "<group>";
+		};
+		29737AA22843A4A400C9618B /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				29737AA028439AD900C9618B /* my-script.txt */,
+			);
+			path = scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29737AA128439AD900C9618B /* my-script.txt in Sources */,
 				29737A9A2843853100C9618B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
